@@ -1,0 +1,6 @@
+{
+  "name": "DK ALGO MAX",
+  "description": "Advanced algorithmic trading platform with strategy engine, backtesting, paper trading, and risk management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

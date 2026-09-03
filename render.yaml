@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: algo-bot-server
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: WEBHOOK_SECRET
+        generateValue: true
+      - key: DHAN_CLIENT_ID
+        value: "YOUR_DHAN_CLIENT_ID"
+        sync: false
+      - key: DHAN_API_SECRET
+        value: "YOUR_DHAN_SECRET"
+        sync: false
+      - key: ANGEL_CLIENT_ID
+        value: "YOUR_ANGEL_ID"
+        sync: false
+      - key: ANGEL_API_KEY
+        value: "YOUR_ANGEL_KEY"
+        sync: false
+      - key: ANGEL_API_SECRET
+        value: "YOUR_ANGEL_SECRET"
+        sync: false

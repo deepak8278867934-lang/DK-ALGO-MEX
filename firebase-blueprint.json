@@ -1,0 +1,43 @@
+{
+  "__blueprint__": "firebase_blueprint",
+  "collections": [
+    {
+      "name": "users",
+      "documentId": "userId",
+      "rules": ["allow read, write: if request.auth != null && request.auth.uid == userId;"],
+      "schema": {
+        "email": "string",
+        "name": "string",
+        "plan": "string",
+        "createdAt": "timestamp"
+      }
+    },
+    {
+      "name": "strategies",
+      "documentId": "strategyId",
+      "rules": ["allow read, write: if request.auth != null && resource.data.userId == request.auth.uid;", "allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;"],
+      "schema": {
+        "userId": "string",
+        "name": "string",
+        "description": "string",
+        "isActive": "boolean",
+        "type": "string",
+        "createdAt": "timestamp"
+      }
+    },
+    {
+      "name": "positions",
+      "documentId": "positionId",
+      "rules": ["allow read, write: if request.auth != null && resource.data.userId == request.auth.uid;", "allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;"],
+      "schema": {
+        "userId": "string",
+        "symbol": "string",
+        "type": "string",
+        "qty": "number",
+        "entryPrice": "number",
+        "currentPrice": "number",
+        "pnl": "number"
+      }
+    }
+  ]
+}

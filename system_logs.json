@@ -1,0 +1,227 @@
+[
+  {
+    "id": "log_1788455130768_9l7nqp",
+    "time": "17:05:30.768",
+    "timestamp": "2026-09-03T17:05:30.768Z",
+    "level": "success",
+    "action": "Paper Order Executed",
+    "source": "Paper Trading Engine",
+    "details": "Simulated BUY order for 50x NIFTY260908C23900 @ ₹102.45. No live broker required in Paper Mode.",
+    "symbol": "NIFTY260908C23900",
+    "quantity": 50,
+    "price": 102.45,
+    "payload": {
+      "action": "BUY",
+      "symbol": "NIFTY260908C23900",
+      "quantity": 50,
+      "price": 102.45,
+      "strategy": "HalfTrend with TP and Trailing SL"
+    },
+    "status": "success"
+  },
+  {
+    "id": "log_1788455130767_345m7g",
+    "time": "17:05:30.767",
+    "timestamp": "2026-09-03T17:05:30.767Z",
+    "level": "info",
+    "action": "Signal Received",
+    "source": "TradingView Webhook",
+    "details": "BUY 50x NIFTY260908C23900 @ ₹102.45 [Strategy: HalfTrend with TP and Trailing SL]",
+    "symbol": "NIFTY260908C23900",
+    "quantity": 50,
+    "price": 102.45,
+    "payload": {
+      "action": "BUY",
+      "symbol": "NIFTY260908C23900",
+      "quantity": 50,
+      "price": 102.45,
+      "strategy": "HalfTrend with TP and Trailing SL"
+    },
+    "status": "info"
+  },
+  {
+    "id": "log_1788454466121_lvwx2w",
+    "time": "16:54:26.121",
+    "timestamp": "2026-09-03T16:54:26.121Z",
+    "level": "success",
+    "action": "Paper Order Executed",
+    "source": "Paper Trading Engine",
+    "details": "Simulated BUY order for 50x NIFTY24000CE @ ₹145.50. No live broker required in Paper Mode.",
+    "symbol": "NIFTY24000CE",
+    "quantity": 50,
+    "price": 145.5,
+    "payload": {
+      "action": "BUY",
+      "symbol": "NIFTY24000CE",
+      "quantity": 50,
+      "price": 145.5,
+      "strategy": "TradingView EMA Alert"
+    },
+    "status": "success"
+  },
+  {
+    "id": "log_1788454466120_8vdefa",
+    "time": "16:54:26.120",
+    "timestamp": "2026-09-03T16:54:26.120Z",
+    "level": "info",
+    "action": "Signal Received",
+    "source": "TradingView Webhook",
+    "details": "BUY 50x NIFTY24000CE @ ₹145.5 [Strategy: TradingView EMA Alert]",
+    "symbol": "NIFTY24000CE",
+    "quantity": 50,
+    "price": 145.5,
+    "payload": {
+      "action": "BUY",
+      "symbol": "NIFTY24000CE",
+      "quantity": 50,
+      "price": 145.5,
+      "strategy": "TradingView EMA Alert"
+    },
+    "status": "info"
+  },
+  {
+    "id": "log_1788454455515_nkpmtu",
+    "time": "16:54:15.515",
+    "timestamp": "2026-09-03T16:54:15.515Z",
+    "level": "success",
+    "action": "Paper Order Executed",
+    "source": "Paper Trading Engine",
+    "details": "Simulated BUY order for 50x NIFTY24000CE @ ₹145.50. No live broker required in Paper Mode.",
+    "symbol": "NIFTY24000CE",
+    "quantity": 50,
+    "price": 145.5,
+    "payload": {
+      "action": "BUY",
+      "symbol": "NIFTY24000CE",
+      "quantity": 50,
+      "price": 145.5,
+      "strategy": "TradingView EMA Alert"
+    },
+    "status": "success"
+  },
+  {
+    "id": "log_1788454455514_q0dkob",
+    "time": "16:54:15.514",
+    "timestamp": "2026-09-03T16:54:15.514Z",
+    "level": "info",
+    "action": "Signal Received",
+    "source": "TradingView Webhook",
+    "details": "BUY 50x NIFTY24000CE @ ₹145.5 [Strategy: TradingView EMA Alert]",
+    "symbol": "NIFTY24000CE",
+    "quantity": 50,
+    "price": 145.5,
+    "payload": {
+      "action": "BUY",
+      "symbol": "NIFTY24000CE",
+      "quantity": 50,
+      "price": 145.5,
+      "strategy": "TradingView EMA Alert"
+    },
+    "status": "info"
+  },
+  {
+    "id": "log_1788454208874_pph92m",
+    "time": "16:50:08.874",
+    "timestamp": "2026-09-03T16:50:08.874Z",
+    "level": "success",
+    "action": "Paper Order Executed",
+    "source": "Paper Trading Engine",
+    "details": "Successfully simulated BUY order for 50 NIFTY24000CE @ ₹142.8. Order ID: #TV-208874",
+    "symbol": "NIFTY24000CE",
+    "quantity": 50,
+    "price": 142.8,
+    "status": "success"
+  },
+  {
+    "id": "log_1788454208874_fojay4",
+    "time": "16:50:08.874",
+    "timestamp": "2026-09-03T16:50:08.874Z",
+    "level": "info",
+    "action": "Signal Received",
+    "source": "TradingView Webhook",
+    "details": "[TEST SIGNAL] BUY 50x NIFTY24000CE @ ₹142.8",
+    "symbol": "NIFTY24000CE",
+    "quantity": 50,
+    "price": 142.8,
+    "payload": {
+      "action": "BUY",
+      "symbol": "NIFTY24000CE",
+      "quantity": 50,
+      "price": 142.8,
+      "token": "sec_8899aabbcc",
+      "strategy": "Test Strategy Indicator",
+      "source": "Manual UI Test"
+    },
+    "status": "info"
+  },
+  {
+    "id": "log_1788454037532_xt0ld8",
+    "time": "16:47:17.532",
+    "timestamp": "2026-09-03T16:47:17.532Z",
+    "level": "success",
+    "action": "Paper Order Executed",
+    "source": "Paper Trading Engine",
+    "details": "Simulated BUY order for 50x NIFTY24000CE @ ₹145.50. No live broker required in Paper Mode.",
+    "symbol": "NIFTY24000CE",
+    "quantity": 50,
+    "price": 145.5,
+    "payload": {
+      "action": "BUY",
+      "symbol": "NIFTY24000CE",
+      "quantity": 50,
+      "price": 145.5,
+      "token": "sec_8899aabbcc"
+    },
+    "status": "success"
+  },
+  {
+    "id": "log_1788454037532_71vlmt",
+    "time": "16:47:17.532",
+    "timestamp": "2026-09-03T16:47:17.532Z",
+    "level": "info",
+    "action": "Signal Received",
+    "source": "TradingView Webhook",
+    "details": "BUY 50x NIFTY24000CE @ ₹145.5 [Strategy: TradingView Alert]",
+    "symbol": "NIFTY24000CE",
+    "quantity": 50,
+    "price": 145.5,
+    "payload": {
+      "action": "BUY",
+      "symbol": "NIFTY24000CE",
+      "quantity": 50,
+      "price": 145.5,
+      "token": "sec_8899aabbcc"
+    },
+    "status": "info"
+  },
+  {
+    "id": "log_1788454031971_9it5uf",
+    "time": "16:47:11.971",
+    "timestamp": "2026-09-03T16:47:11.971Z",
+    "level": "info",
+    "action": "Broker Connectors Ready",
+    "source": "Broker API",
+    "details": "Dhan & Angel One API execution routers loaded with emergency scrip fallback",
+    "status": "info"
+  },
+  {
+    "id": "log_1788454031971_oxd3hd",
+    "time": "16:47:11.971",
+    "timestamp": "2026-09-03T16:47:11.971Z",
+    "level": "info",
+    "action": "Webhook Gateway Active",
+    "source": "TradingView Webhook",
+    "details": "Listening for incoming TradingView alerts at endpoint /api/webhook/tradingview",
+    "status": "info"
+  },
+  {
+    "id": "log_1788454031970_74zlsv",
+    "time": "16:47:11.970",
+    "timestamp": "2026-09-03T16:47:11.970Z",
+    "level": "success",
+    "action": "System Initialized",
+    "source": "System Engine",
+    "details": "DK ALGO MAX v3.2 Trading Engine initialized and listening on port 3000",
+    "status": "success"
+  }
+]

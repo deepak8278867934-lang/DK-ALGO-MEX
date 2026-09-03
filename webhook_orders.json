@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ord_1788455130768_cu01i",
+    "orderId": "TV-130768",
+    "symbol": "NIFTY260908C23900",
+    "type": "BUY",
+    "qty": 50,
+    "price": 102.45,
+    "time": "17:05:30.768",
+    "timestamp": "2026-09-03T17:05:30.768Z",
+    "strategy": "HalfTrend with TP and Trailing SL",
+    "source": "TradingView Webhook",
+    "processed": false
+  },
+  {
+    "id": "ord_1788454466121_yyg3d",
+    "orderId": "TV-466121",
+    "symbol": "NIFTY24000CE",
+    "type": "BUY",
+    "qty": 50,
+    "price": 145.5,
+    "time": "16:54:26.121",
+    "timestamp": "2026-09-03T16:54:26.121Z",
+    "strategy": "TradingView EMA Alert",
+    "source": "TradingView Webhook",
+    "processed": true
+  }
+]
